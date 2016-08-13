@@ -1,0 +1,24 @@
+{
+  "name": "socialsline-angularjs",
+  "description": "\"# socialsline-angularjs\"",
+  "main": "server.js",
+  "authors": [
+    "Kremlyakov",
+    "boldyrevgene"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Kremlyakov/socialsline-angularjs",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "/src/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-route": "^1.5.8"
+  }
+}

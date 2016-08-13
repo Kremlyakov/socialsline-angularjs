@@ -1,0 +1,7 @@
+# directories of ide
+.idea
+
+# directories of libraries
+src/vendor
+node_modules
+
