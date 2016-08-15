@@ -9,6 +9,8 @@ angular.module('app.login', ['ngRoute'])
     });
 }])
 
-.controller('LoginCtrl', function () {
-
+.controller('LoginCtrl', function ($scope) {
+    $scope.sendLogin = function () {
+        console.log($scope.login + ' ' + $scope.pswd);
+    }
 });
