@@ -5,6 +5,6 @@ angular.module('app', [
     'app.login'
 ])
 
-.config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
+.config(['$httpProvider', '$locationProvider', '$routeProvider', function($httpProvider, $locationProvider, $routeProvider) {
 
 }]);
