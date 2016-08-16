@@ -11,9 +11,13 @@ angular.module('app.login', ['ngRoute'])
 
     .controller('LoginCtrl', ['$scope', '$http', function ($scope, $http) {
         $scope.sendLogin = function () {
-            console.log($scope.login + ' ' + $scope.pswd);
-            $http({method: 'POST', url: '/login'});
-        }
-
-
+            $http({
+                method: 'POST',
+                url: '/login',
+                data: {
+                    login: $scope.login,
+                    password: $scope.pswd
+                }
+            });
+        };
     }]);
